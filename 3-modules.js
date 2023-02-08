@@ -1,0 +1,12 @@
+const names=require('./4-names');
+const hello=require('./5-utils');
+console.log(names);
+hello.sayhi(names.peter);
+hello.sayhi('Simp');
+console.log(typeof(hello));
+hello.sayhi("Doge");
+const data=require('./6-alternative');
+console.log(data);
+console.log(data.singleperson.name);
+const tem=require('./7-mindgrenade');
+console.log(typeof(tem));
